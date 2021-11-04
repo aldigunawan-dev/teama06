@@ -6,3 +6,7 @@ h1 {
     color: blue;
     background-color:blueviolet;
 }
+
+.footer-wrapper h1 {
+    float: left;
+}
