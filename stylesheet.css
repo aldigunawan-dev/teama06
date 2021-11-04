@@ -1,3 +1,8 @@
 h1 {
     color: blue;
 }
+
+.footer-wrapper {
+    color: blue;
+    background-color:blueviolet;
+}
