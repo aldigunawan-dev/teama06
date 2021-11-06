@@ -10,3 +10,7 @@ h1 {
 .footer-wrapper h1 {
     float: left;
 }
+
+footer {
+    text-align: center;
+}
