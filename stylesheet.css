@@ -1,12 +1,129 @@
-h1 {
-    color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-.footer-wrapper {
-    color: blue;
-    background-color:blueviolet;
+body {
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #171717;
 }
 
-.footer-wrapper h1 {
-    float: left;
+.logo {
+  color: white;
+  font-size: 40px;
+  line-height: 80px;
+  margin: 15px 37px;
+  font-weight: bold;
+}
+
+.header-list {
+  float: right;
+  margin-right: 34px;
+}
+
+.header-list li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 14px 10px;
+}
+
+.header-link {
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.header-link:hover {
+  background: white;
+  color: grey;
+  transition: 0.5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+@media (max-width: 800px) {
+  .checkbtn {
+    display: block;
+  }
+
+  .header-list {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    border-radius: 3px;
+    margin-right: 0;
+    top: 80px;
+    right: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  .header-list li {
+    display: block;
+  }
+
+  .header-link {
+    font-size: 20px;
+  }
+
+  .header-link:hover {
+    background: white;
+    color: black;
+  }
+
+  #check:checked ~ .header-list {
+    right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .checkbtn {
+    display: block;
+  }
+
+  .header-list {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    margin-right: 0;
+    border-radius: 3px;
+    top: 80px;
+    right: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  .header-list li {
+    display: block;
+  }
+
+  .header-link {
+    font-size: 20px;
+  }
+
+  .header-link:hover {
+    background: white;
+    color: black;
+  }
+
+  #check:checked ~ .header-list {
+    right: 0;
+  }
 }
