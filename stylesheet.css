@@ -1,12 +1,35 @@
-h1 {
-    color: blue;
+body{
+    background-color:  #171717;
+    margin-top: 253px;
+    margin-right: 57px;
+    margin-bottom: 253px;
 }
 
-.footer-wrapper {
-    color: blue;
-    background-color:blueviolet;
+.img{
+
+    float: right;
+    background-position: center;
+    border-radius: 20px;
+    left: 138px;
+    top: 153px;
+    
 }
 
-.footer-wrapper h1 {
-    float: left;
+.hero-text{
+
+    position: absolute;
+    height: 180px;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    margin-left: 37px;
+    padding: 10px 10px;
+
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
 }
+
