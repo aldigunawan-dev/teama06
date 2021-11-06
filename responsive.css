@@ -1,0 +1,76 @@
+@media (max-width: 900px){
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+    }
+    
+    .card{
+        padding: 22px 20px;
+        display: flex;
+        width: 100%;
+        height: 110px;
+        margin-left: 5%;
+    }
+    
+    .foto img{
+        max-width: 110px;
+        max-height: 110px;
+        border-radius: 20px;
+    }
+    
+    .text-card{
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    .text-card h1{
+        font-size: 21px;
+    }
+    
+    .text-card p{
+        font-size: 14px;
+    }
+
+    .section-message{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .heading-msg h1 {
+        font-size: 23px;
+    }
+    
+    .heading-msg p {
+        font-size: 14px;
+    }
+    .heading-msg {
+        padding-bottom: 20px;
+    }
+    .contact-wrapper {
+        margin-top: 65px;
+        margin: auto;
+    }
+    /* ini nengahin bagian masukin nama pesan gitu-gitu*/
+    
+    .contact-form {
+        padding-top: 12px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    /*Label untuk form*/
+    label{
+    font-size: 14px;
+    }
+    /* ini untuk ngatur bagian formnya ya gaes*/
+    input[type=text],textarea {
+        width: 90%;
+        padding: 12px;
+        border: 1px solid #c4c4c4;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+}
