@@ -22,7 +22,6 @@
   
   .header-list li {
     float: right;
-    display: inline-block;
     line-height: 80px;
     font-size: 15px;
     margin: -10px 10px;
@@ -34,6 +33,7 @@
     border-radius: 3px;
     font-size: 15px;
     text-transform: uppercase;
+    padding: 20px 10px;
   }
   
   .header-link:hover {
@@ -59,11 +59,6 @@
     .header-list li {
       display: block;
     }
-  
-    .header-link {
-      font-size: 20px;
-    }
-  
     .header-link:hover {
       background: white;
       color: black;

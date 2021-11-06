@@ -73,4 +73,62 @@
         margin-top: 6px;
         margin-bottom: 16px;
     }
+    .checkbtn {
+        display: block;
+      }
+   .img{
+        max-height: 120px;
+        max-width: 120px;
+    }
+    
+    .hero{
+        width: 75%;
+        height: 90px;
+        text-align: left;
+        font-family: Montserrat;
+        font-size: 20px;
+        margin: auto;
+        padding-top:100px ;
+        margin-bottom: 100px;
+        color: #FFFFFF;
+    }
+  
+    .hero-text{
+        line-height: 15px;
+    }
+    .hero-text h1{
+        font-size: 35px;
+    }
+    .hero-text p{
+        font-size: 19px;
+    }
+    
+      .header-list {
+        display: flex;
+        position: fixed;
+        height: 100%;
+        border-radius: 3px;
+        margin-right: 0;
+        top: 80px;
+        right: -100%;
+        text-align: left;
+        transition: all 0.5s;
+        background-color: #212020;
+        flex-direction: column;
+      }
+    
+    
+      .header-link {
+        font-size: 13px;
+        flex-direction: column;
+      }
+    
+      .header-link:hover {
+        background: white;
+        color: black;
+      }
+    
+      #check:checked ~ .header-list {
+        right: 0;
+    }
 }
