@@ -104,6 +104,9 @@ body{
     margin: auto;
 }
 /* ini nengahin bagian masukin nama pesan gitu-gitu*/
+.contact-form {
+    text-align: center;
+}
 
 .contact-form {
     padding-top: 12px;
