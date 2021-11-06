@@ -37,7 +37,7 @@ ul{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 85%;
     height: auto;
 }
 
@@ -92,14 +92,12 @@ body{
 
 .contact-wrapper {
     margin-top: 95px;
+    margin: auto;
+    width: 70%;
 }
 /* ini nengahin bagian masukin nama pesan gitu-gitu*/
 .contact-form {
     text-align: center;
-}
-
-.contact-wrapper label {
-    padding-left: 360px;
 }
 
 .contact-form {
@@ -108,7 +106,7 @@ body{
 }
 /* ini untuk ngatur bagian formnya ya gaes*/
 input[type=text],textarea {
-    width: 50%;
+    width: 90%;
     padding: 12px;
     border: 1px solid #c4c4c4;
     border-radius: 4px;
@@ -135,6 +133,7 @@ input[type=text],textarea {
 /* animasi untuk hover*/
 .submit:hover {
     opacity: 1;
+    transition: 90ms;
 }
 /* animasi ketika tombol di gunakan/di tekan*/
 .submit:active {
