@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +8,22 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>Progate A06</title>
-</head>
-
 <body>
-    <header>
-
-    </header>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <img src="/src/img/pr.png" class="logo" />
+      <ul class="header-list">
+        <!-- Isi setiap href sama id beranda, anggota, kontak kami biar tiap di klik langsung ke bagian masing masing-->
+        <li><a class="header-link" href="">Beranda</a></li>
+        <li><a class="header-link" href="">Anggota</a></li>
+        <li><a class="header-link" href="">Kontak Kami</a></li>
+      </ul>
+    </nav>
+    <!-- Akhir Navbar -->
     <div class="hero">
       <div class="hero-image">
         <img class="img" src="/src/img/lp.png">
@@ -147,5 +156,4 @@
     </div>
     <!-- ini akhir bagian formnya -->
 </body>
-
 </html>
