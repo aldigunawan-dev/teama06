@@ -9,14 +9,19 @@
 body {
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
+  background-color: #212020;
+}
+
+.navbar {
   background-color: #171717;
+  height: 60px;
 }
 
 .logo {
   color: white;
   font-size: 40px;
   line-height: 80px;
-  margin: 15px 37px;
+  margin: -10px 37px;
   font-weight: bold;
 }
 
@@ -28,7 +33,7 @@ body {
 .header-list li {
   display: inline-block;
   line-height: 80px;
-  margin: 14px 10px;
+  margin: -10px 10px;
 }
 
 .header-link {
@@ -50,6 +55,7 @@ body {
   color: white;
   float: right;
   line-height: 80px;
+  margin-top: -10px;
   margin-right: 40px;
   cursor: pointer;
   display: none;
