@@ -37,7 +37,7 @@ ul{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 85%;
     height: auto;
 }
 
@@ -55,7 +55,10 @@ ul{
     max-height: 150px;
     border-radius: 20px;
 }
-
+.card a{
+    font-size: 15px;
+    color: white;
+}
 .text-card{
     text-align: left;
     padding-left: 20px;
@@ -78,10 +81,14 @@ body{
 }
 
 /* ini untuk nengahin bagian judul di form*/
-.heading-msg {
+
+.section-message{
+    width: 80%;
+    margin: auto;
+}
+.heading-msg{
     text-align: center;
 }
-
 .heading-msg h1 {
     font-size: 28px;
 }
@@ -89,21 +96,21 @@ body{
 .heading-msg p {
     font-size: 14px;
 }
-
+.heading-msg {
+    padding-bottom: 20px;
+}
 .contact-wrapper {
     margin-top: 95px;
     margin: auto;
-    width: 70%;
 }
 /* ini nengahin bagian masukin nama pesan gitu-gitu*/
-.contact-form {
-    text-align: center;
-}
 
 .contact-form {
     padding-top: 12px;
     margin-bottom: 30px;
+    text-align: center;
 }
+
 /* ini untuk ngatur bagian formnya ya gaes*/
 input[type=text],textarea {
     width: 90%;
@@ -120,7 +127,6 @@ input[type=text],textarea {
     font-family: Montserrat;
     font-weight: 600;
     padding: 8px 19px;
-    margin-left: 360px;
     background-color: white;
     color: #212020;
     display: inline-block;
@@ -130,10 +136,19 @@ input[type=text],textarea {
     cursor: pointer;
     box-shadow: -3px 4px #a3a3a3;
 }
+/*Label untuk form*/
+label{
+    font-size: 16px;
+}
 /* animasi untuk hover*/
 .submit:hover {
     opacity: 1;
-    transition: 90ms;
+    transition: 100ms;
+}
+.card a:hover{
+    opacity: 0.7;
+    color: #a585ff;
+    transition: 100ms;
 }
 /* animasi ketika tombol di gunakan/di tekan*/
 .submit:active {
@@ -141,4 +156,8 @@ input[type=text],textarea {
     right: 3px;
     box-shadow: none;
     position: relative;
+}
+.card a:active{
+    opacity: 1;
+    color: #a585ff;
 }
