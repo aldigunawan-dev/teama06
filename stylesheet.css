@@ -1,0 +1,72 @@
+/*ini buat bagian body untuk background dan font family*/
+body{
+    font-family: Montserrat;
+    background-color: #212020;
+    color: white;
+}
+/* ini untuk nengahin bagian judul di form*/
+.heading-msg {
+    text-align: center;
+}
+
+.heading-msg h1 {
+    font-size: 28px;
+}
+
+.heading-msg p {
+    font-size: 14px;
+}
+
+.contact-wrapper {
+    margin-top: 95px;
+}
+/* ini nengahin bagian masukin nama pesan gitu-gitu*/
+.contact-form {
+    text-align: center;
+}
+
+.contact-wrapper label {
+    padding-left: 360px;
+}
+
+.contact-form {
+    padding-top: 12px;
+    margin-bottom: 30px;
+}
+/* ini untuk ngatur bagian formnya ya gaes*/
+input[type=text],textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+/*ini bagian untuk ngatur si button submit*/
+.submit {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 600;
+    padding: 8px 19px;
+    margin-left: 360px;
+    background-color: white;
+    color: #212020;
+    display: inline-block;
+    border-radius: 5px;
+    opacity: 0.8;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: -3px 4px #a3a3a3;
+}
+/* animasi untuk hover*/
+.submit:hover {
+    opacity: 1;
+}
+/* animasi ketika tombol di gunakan/di tekan*/
+.submit:active {
+    top: 7px;
+    right: 3px;
+    box-shadow: none;
+    position: relative;
+}
