@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Progate</title>
-    <!-- css -->
-    <link rel="stylesheet" href="stylesheet.css" />
-    <!-- Font Montserrat -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
-    <!-- Icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Progate A06</title>
+<body>
     <!-- Navbar -->
     <nav class="navbar">
       <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <img src="pr.png" class="logo" />
+      <img src="/src/img/pr.png" class="logo" />
       <ul class="header-list">
         <!-- Isi setiap href sama id beranda, anggota, kontak kami biar tiap di klik langsung ke bagian masing masing-->
         <li><a class="header-link" href="">Beranda</a></li>
@@ -28,5 +24,136 @@
       </ul>
     </nav>
     <!-- Akhir Navbar -->
-  </body>
+    <div class="hero">
+      <div class="hero-image">
+        <img class="img" src="/src/img/lp.png">
+        <div class="hero-text">
+          <h1>Hi 👋🏻 ,,</h1>
+          <p>Kami Kelompok A06</p>
+          <p>Project Yang Kami Buat</p>  
+          <p>Adalah Project Portofolio</p>
+        </div>
+      </div>
+    </div>
+    <!-- ini untuk bagian cards -->
+    <div class="contain-cards">
+        <ul class="cards">
+            <!-- Kartu 1 -->
+            <div class="card">
+                <div class="foto">
+                    <img src="/src/img/aldi.jpg" alt="">
+                </div>
+                <div class="text-card">
+                    <h1 class="nama">
+                        M. Aldi Gunawan
+                    </h1>
+                    <div class="desc">
+                        <p>Institut Teknologi Sumatera</p>
+                        <p>Program Studi Informatika</p>
+                        <a href="https://www.instagram.com/_aldignwn/" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Kartu 2 -->
+            <div class="card">
+                <div class="foto">
+                    <img src="/src/img/amey.jpg" alt="">
+                </div>
+                <div class="text-card">
+                    <h1 class="nama">
+                        Meissy Arrahma I.
+                    </h1>
+                    <div class="desc">
+                        <p>Institut Teknologi Nasional</p>
+                        <p>Program Studi Sistem Informasi</p>
+                        <a href="https://www.instagram.com/kokkiopetals/" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Kartu 3 -->
+            <div class="card">
+                <div class="foto">
+                    <img src="/src/img/ken.jpg" alt="">
+                </div>
+                <div class="text-card">
+                    <h1 class="nama">
+                        Keanu Jaler Pangestu
+                    </h1>
+                    <div class="desc">
+                        <p>Institut Teknologi Nasional</p>
+                        <p>Program Studi Sistem Informasi</p>
+                        <a href="http://instagram.com/keanuken_" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Kartu 4 -->
+            <div class="card">
+                <div class="foto">
+                    <img src="/src/img/cisa.jpg" alt="">
+                </div>
+                <div class="text-card">
+                    <h1 class="nama">
+                        Carissa Adnyana Putri R.
+                    </h1>
+                    <div class="desc">
+                        <p>Institut Teknologi Nasional</p>
+                        <p>Program Studi Sistem Informasi</p>
+                        <a href="https://instagram.com/carissaadnyana" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Kartu 5 -->
+            <div class="card last">
+                <div class="foto">
+                    <img src="/src/img/adin.jpg" alt="">
+                </div>
+                <div class="text-card">
+                    <h1 class="nama">
+                        Fauzan Addien
+                    </h1>
+                    <div class="desc">
+                        <p>Institut Teknologi Nasional</p>
+                        <p>Program Studi Sistem Informasi</p>
+                        <a href="https://www.instagram.com/addienfauzan/" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </ul>
+        <!-- Akhir cards -->
+    </div>
+    <!-- akhir container cards -->
+    <!-- ini untuk bagian form -->
+    <div class="section-message">
+        <div class="message-wrapper">
+            <div class="container">
+                <!-- ini bagian judul form -->
+                <div class="heading-msg">
+                    <h1>Kontak Kami</h1>
+                    <p>Untuk Kritik dan Saran</p>
+                </div>
+                <!-- ini akhir bagian judul formnya -->
+                <!-- ini bagian formnya -->
+                <div class="contact-wrapper">
+                    <div class="container">
+                        <label for="name">Nama Lengkap</label>
+                        <div class="contact-form">
+                            <input type="text" name="nama" id="">
+                        </div>
+                        <label for="name">Pesan</label>
+                        <div class="contact-form">
+                            <textarea name="pesan" id="pesan" style="height: 200px;"></textarea>
+                        </div>
+                        <!-- ini bagian button submitnya-->
+                        <div class="btn-wrapper">
+                            <a href="#" class="submit">Submit</a>
+                        </div>
+                        <!-- ini akhir bagian button submitnya-->
+                    </div>
+                </div>
+                <!-- ini akhir bagian formnya -->
+            </div>
+        </div>
+    </div>
+    <!-- ini akhir bagian formnya -->
+</body>
 </html>
